@@ -1,0 +1,75 @@
+
+        div {
+            border: none;
+            
+            color: whitesmoke;
+            
+        }
+
+        @media only screen and (min-width: 100px) {
+            /* For tablets: */
+
+            /* this will change the container class background to red when tablet*/
+
+            .col {
+                background-color: lavenderblush;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lightgray;
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lightgoldenrodyellow;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lavender;
+            }
+        }
+
+       
+
+         @media only screen and (orientation: landscape) {
+            /* this will change the background to light blue when view is landscape */
+            .col {
+                background-color: #38352d;
+            }
+        } 
+        
+        @media only screen and (orientation: landscape) {
+            
+            div.col.col-sm-6.col-md-4.col-lg-3.col-xl-121 {
+              background-color: rgb(13, 34, 21);
+color: darkgray;
+            }
+          }
+          @media only screen and (orientation: landscape) {
+            /* Targeting the specific part of the div and changing its background color */
+            div.col.col-sm-6.col-md-4.col-lg-3.col-xl-121 {
+              background-color: rgb(13, 34, 21);
+              color: darkgray;
+            }
+          }
+          
+          /* Applying styles to the .text class */
+          .text {
+            padding-top: 260px; /* Add some top padding for separation */
+            padding-left: 0px;
+            color: whitesmoke;
+          }
+          body {
+            background-color: #2e2e2e;
+          }
