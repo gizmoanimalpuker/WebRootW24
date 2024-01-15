@@ -1,14 +1,73 @@
 
-  
-  .text {
-    padding-top: 260px; 
-    padding-left: 0px;
-    color: whitesmoke;
-  }
-  body {
-    color: whitesmoke;
-    background-color: #2e2e2e;
-  }
-   ol {
-    max-width: 500px;
-}
+        div {
+            border: none;
+            
+            color: whitesmoke;
+            
+        }
+
+        @media only screen and (min-width: 100px) {
+            /* For tablets: */
+
+            /* this will change the container class background to red when tablet*/
+
+            .col {
+                background-color: lavenderblush;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lightgray;
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lightgoldenrodyellow;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            /* For desktop: will change the container class to orange*/
+
+            .col {
+                background-color: lavender;
+            }
+        }
+
+       
+
+         @media only screen and (orientation: landscape) {
+            /* this will change the background to light blue when view is landscape */
+            .col {
+                background-color: #38352d;
+            }
+        } 
+        
+        @media only screen and (orientation: landscape) {
+            
+            div.col.col-sm-6.col-md-4.col-lg-3.col-xl-121 {
+              background-color: rgb(13, 34, 21);
+color: darkgray;
+            }
+          }
+
+          
+          
+          .text {
+            padding-top: 260px; 
+            padding-left: 0px;
+            color: whitesmoke;
+          }
+          body {
+            background-color: #2e2e2e;
+          }
+          .col {width: 75%;}
+     
+
+          
